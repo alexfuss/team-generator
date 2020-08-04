@@ -28,6 +28,8 @@ class Employee {
     // Update this function on App page to ensure undefined does not show
     getEmail() {
         console.log(`Employee Email: ${this.email}`);
+
+        return this.email;
     };
 
     getRole() {
